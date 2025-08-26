@@ -1,0 +1,87 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px solid #388E3C; /* demonstrates border */
+  }
+  
+  /* Navigation */
+  .nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 12px;
+  }
+  .nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  /* Main content */
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  /* Card-like sections */
+  .card {
+    background-color: white;
+    margin: 20px 0;          /* margin creates space outside */
+    padding: 20px;           /* padding creates space inside */
+    border: 2px solid #ddd;  /* border shows box boundaries */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .highlight {
+    border-color: #4CAF50;
+    background-color: #e8f5e9;
+  }
+  
+  /* Button styling */
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #388E3C;
+    padding: 10px 20px;   /* padding increases button size */
+    margin-top: 10px;     /* margin creates space above */
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
